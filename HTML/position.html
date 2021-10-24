@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    body {
+        height: 100vh;
+    }
+    .inner {
+        width: 60%;
+        margin: auto;
+    }
+    .inner div {
+        height: 200px;
+        border: 1px solid;
+    }
+    .inner div:nth-child(1) {
+        background-color: coral;
+    }
+    .inner div:nth-child(2) {
+        background-color: cornflowerblue;
+    }
+    .inner div:nth-child(3) {
+        background-color: chocolate;
+    }
+
+    .inner1 {
+        width: 60%;
+        margin-top: 30px ;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom:auto;
+        position: relative;
+    }
+    .inner1 div {
+        height: 180px;
+        border: 1px solid;
+    }
+    .inner1 div:nth-child(1) {
+        background-color: coral;
+    }
+    .inner1 div:nth-child(2) {
+        background-color: cornflowerblue;
+    }
+    .inner1 div:nth-child(3) {
+        background-color: chocolate;
+    }
+
+  .inner1  .c{
+        position: absolute;
+    top: 43%;
+    left: 43%;
+    height: 20%;
+    }
+
+    .b{
+        position: absolute;
+    top: 0%;
+    left: 43%;
+    }
+    </style>
+</head>
+<body>
+    <section class="inner">
+        <div>   
+            Position A
+        </div>
+        <div>   
+            Position B
+        </div>
+        <div>   
+            Position C
+        </div>
+    </section>
+
+    <section class="inner1">
+        <div>   
+            Position A
+        </div>
+        <div class="b">   
+            Position B
+        </div>
+        <div class="c">   
+            Position C
+        </div>
+    </section>
+    <script>
+let arr = [1,2,3];
+arr.pop();
+console.log(arr);
+    </script>
+</body>
+</html>
